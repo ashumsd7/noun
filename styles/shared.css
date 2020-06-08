@@ -20,21 +20,34 @@
 .definition{
     display: inline-block;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 400;
     word-spacing: 2px;
     letter-spacing: .5px;
+}
+/* .sub-heading{
+    font-weight: 600;
+    width: auto;
+    display: block;
+} */
+.highlight{
+    color: rgb(26, 27, 25);
+    background: rgb(237, 240, 94);
 }
 .example{
     display: inline-block;
     border: .2px dotted gray;
     box-shadow: 4px 2px 2px gray;
     padding: 3px;
+    border-radius: 5px;
 }
 .example:hover{
     display: inline-block;
     border: .5px dotted gray;
     box-shadow: 4px 2px 2px rgb(10, 10, 10);
     padding: 3px;
+}
+img{
+    display: block;
 }
 .links{
     display: inline;
@@ -62,4 +75,8 @@
 .hr-line{
     margin-top: 20px;
     border-bottom: 3px solid rgb(80, 77, 77);
+}
+.timestamp{
+    float: right;
+   
 }
