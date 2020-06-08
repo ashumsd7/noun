@@ -6,7 +6,7 @@
     border-bottom: 3px solid red;
     width: auto;
     display: inline-block;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
    
 }
@@ -17,18 +17,20 @@
     border-bottom: 3px solid rgb(13, 233, 123);
 
 }
-.definition{
+.def{
     display: inline-block;
     font-size: medium;
     font-weight: 400;
     word-spacing: 2px;
     letter-spacing: .5px;
 }
-/* .sub-heading{
-    font-weight: 600;
+.sub{
+    border-bottom: 1px solid rgb(233, 105, 105);
     width: auto;
-    display: block;
-} */
+    display: inline-block;
+    font-size: large;
+    font-weight: 800;
+}
 .highlight{
     color: rgb(26, 27, 25);
     background: rgb(237, 240, 94);
