@@ -1,0 +1,32 @@
+#app{
+    height: 100vh;
+    background: rgb(226, 241, 243);
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    color: rgb(245, 239, 239)!important;
+}
+
+.bg-dark {
+    background-color: #2a80d5!important;
+}
+#timestamp{
+    color: white;
+    font-weight: bolder;
+}
+.topic-group-title{
+    /* background: #9196f0; */
+    font-family: 'Metal Mania', cursive;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px gray;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.card:hover{
+    transition: 1.5s;
+    background-color:rgb(224, 240, 81) ;
+    cursor: pointer;
+}
