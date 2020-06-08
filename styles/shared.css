@@ -1,7 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
 .heading{
     border-bottom: 3px solid red;
     width: auto;
     display: inline-block;
     font-size: large;
     font-weight: bold;
+   
+}
+
+.heading:hover{
+    transition: .5s;
+    border-top: 3px solid red;
+    border-bottom: 3px solid rgb(13, 233, 123);
+
+}
+.definition{
+    display: inline-block;
+    font-size: medium;
+    font-weight: 600;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+}
+.example{
+    display: inline-block;
+    border: .2px dotted gray;
+    box-shadow: 4px 2px 2px gray;
+    padding: 3px;
+}
+.example:hover{
+    display: inline-block;
+    border: .5px dotted gray;
+    box-shadow: 4px 2px 2px rgb(10, 10, 10);
+    padding: 3px;
+}
+.links{
+    display: inline;
+    font-size: small;
+    font-weight: bolder;
+    border: 1px dashed rgb(7, 7, 7);
+    margin: 3px;
+    padding: 3px;
+    color: blue;
+    border-radius: 5px;
+}
+.links:hover{
+    transition: 1s;
+    display: inline;
+    font-size: small;
+    font-weight: 400;
+    border: none;
+    margin: 3px;
+    padding: 3px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.hr-line{
+    margin-top: 20px;
+    border-bottom: 3px solid rgb(80, 77, 77);
 }
