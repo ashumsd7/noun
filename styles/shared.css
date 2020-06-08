@@ -1,0 +1,7 @@
+.heading{
+    border-bottom: 3px solid red;
+    width: auto;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+}
