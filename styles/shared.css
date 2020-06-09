@@ -6,6 +6,9 @@
     float: right;
     margin-top: 50px;
 }
+.container{
+    margin-top: 10px;
+}
 .heading{
     border-bottom: 3px solid red;
     width: auto;
