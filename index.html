@@ -8,6 +8,15 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/app.css">
     <link rel="stylesheet" href="styles/noun.css">
@@ -16,27 +25,21 @@
 </head>
 
 <body>
+
+
     <div id="app">
         <div id="header">
             <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand" @click="getDate"><i class="fa fa-book" aria-hidden="true"></i>Your E-Library <i
+                <a class="navbar-brand"><i class="fa fa-book" aria-hidden="true"></i>Your E-Library <i
                         class="fa fa-book" aria-hidden="true"></i></a>
-                <form class="form-inline">
-                    <p id="timestamp">
-
-                    </p>
-                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search Topics" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-
-                </form>
             </nav>
+
         </div>
         <br>
-        <select name="aa" onchange="SwitchPages(this.value)"> 
-            <option value="day1">DAY 1</option>
-            <option value="day2">DAY 2</option>
-        </select>
+        <h4>You are at Day: <strong class="highlight"> 01</strong></h4>
+        <Button onclick="document.location.href='OtherPages/switchDays.html'" class="btn selctBtn btn-success">Select Days</Button>
 
+        <br>
         <div class="container main-section">
             <p class="heading">
                 ENGLISH ?
@@ -115,12 +118,12 @@
                 Then do not pronounce 'r' Just Say : Wod
                 <br>
                 Other Examples: Car, Father, Hair etc..
-               
+
             </div>
 
             <br>
             <br>
-        
+
             <div class="example">
                 But if r is between two vowels then pronounce 'r', do not silent 'r'
                 <img src="images/3.JPG" alt="">
@@ -135,10 +138,10 @@
             Those units can be divides or classified in to these 8 types which are called. <br> <br>
             <div class="sub">PARTS OF SPEECH</div>
             <hr>
-            <li   v-for="pos in partofspeech">{{ pos }}</li>
+            <li v-for="pos in partofspeech">{{ pos }}</li>
             <hr>
 
-           
+
             <div class="sub">Phrase</div>
             <br>
             <div class="def">
@@ -148,9 +151,9 @@
             <br>
             Example:
             <div class="example">
-               <li> Ajit and Sujit</li>
-               <li>In my car</li>
-               <small>There is no meaning of above lines.</small>
+                <li> Ajit and Sujit</li>
+                <li>In my car</li>
+                <small>There is no meaning of above lines.</small>
 
             </div>
             <br>
@@ -161,21 +164,21 @@
             <li>Adjective Phrases</li>
             <li>Adverb Phrases</li>
             <br>
-           
-           <div class="sub">Sentence</div>
-           <br>
-           <div class="def">
-               A group of words with complete meaning. <br>
-               <small>Arrangement of words is also important</small>
-               <br>
-               
-               Which is called <strong class="highlight">STRUCTURE</strong>
-           </div>
-           <hr>
-           <div class="def">Here we will study English Grammar in two parts.</div>
-           <br>
-           <li class="sub">ELEMENTRY LEVEL : [ Parts of Speech ]</li>
-           <li class="sub">ADVANCE LEVEL : [Tense... to ..  Narration ]</li>
+
+            <div class="sub">Sentence</div>
+            <br>
+            <div class="def">
+                A group of words with complete meaning. <br>
+                <small>Arrangement of words is also important</small>
+                <br>
+
+                Which is called <strong class="highlight">STRUCTURE</strong>
+            </div>
+            <hr>
+            <div class="def">Here we will study English Grammar in two parts.</div>
+            <br>
+            <li class="sub">ELEMENTRY LEVEL : [ Parts of Speech ]</li>
+            <li class="sub">ADVANCE LEVEL : [Tense... to .. Narration ]</li>
 
             <br>
             <br>
@@ -190,10 +193,11 @@
 
 
             <p class="hr-line">
-                Thanks for Reading.. Keep Learning <div class="btn btn-success">DAY 2</div>
+                Thanks for Reading.. Keep Learning
+            <div class="btn btn-success">DAY 2</div>
             </p>
             <br>
-            
+
         </div>
 
 

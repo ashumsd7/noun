@@ -12,13 +12,17 @@ new Vue({
                 'PREPOSITION : relating word ',
                 'CONJUCTION : connectig word',
                 'INTERJECTION: Sudden Feeling Expression'
-            ]
+            ],
+           daySwitch:''
         }
     },
     methods: {
-        nounClicked(){
-            alert("a")
+        day1clicked(){
+           document.location.href='../index.html';
         },
+        day2clicked(){
+            document.location.href='../day2.html';
+        }
       
     },
 
