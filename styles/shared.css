@@ -4,6 +4,7 @@
 }
 .selctBtn{
     float: right;
+    margin-top: 50px;
 }
 .heading{
     border-bottom: 3px solid red;
