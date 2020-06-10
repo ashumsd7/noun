@@ -22,7 +22,11 @@ new Vue({
         },
         day2clicked(){
             document.location.href='../day2.html';
+        },
+        day3clicked(){
+            document.location.href='../day3.html';
         }
+      
       
     },
 
